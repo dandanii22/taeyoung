@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>project</title>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/topMenu.css" />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+        <link rel="icon" href="images/header/favicon.ico" />
+    </head>
+    <body>
+        <form action="post" action="xxx.jsp" target="_blank" name="form">
+            <fieldset>
+                <legend>
+
+                
+                </legend>
+        <p id="skipNav"><a href="#content">본문바로가기</a></p>
+        <div id="wrap">
+            <header id="subheader">
+                <!-- subheader 추가 완료 -->
+            </header>
+            <!-- //subheader -->
+
+            <main id="container" class="page topMenu">
+                <div class="myPage">
+                    <div class="all">
+                        <h2>내 정보 관리</h2>
+                        <div class="one">
+                            <div class="one_left">
+                                <div class="one_1">
+                                    <h3>모집구분</h3>
+                                    <p>
+                                        <lable for="sel"></lable>
+                                        <select id="sel" title="지원공고를 선택하세요">
+                                            <option value=""> 지원공고를 선택하세요 </option>
+                                            <option value="1"> 현재 선택할 수 있는 공고가 없습니다. </option>
+                                        </select>
+                                    </p>
+                                </div>
+                                <div class="one_2">
+                                    <h3>프로필 설정</h3> 
+                                    <span>비공개로 설정</span>
+                                    <div class="toggle"> 
+                                        <i class="indicator"></i>
+                                      </div>
+                                      <p>비공개로 설정할 경우, 신청인의 이력서가 회사에 공개되지 않습니다.</p>
+                                </div>
+
+                                <div class="one_3">
+                                    <h3>성별</h3><span>여성</span>
+                                    <div class="toggle"> 
+                                        <i class="indicator"></i>
+                                      </div>
+                                      <span>남성</span>
+                                </div>
+                            </div>
+                            <div class="one_ringt">
+                                <p class="img"><i class="xi-camera"></i>
+                                </p>
+                                <p>사진 등록/수정</p>
+                            </div>
+                        </div>
+                        <!--one-->
+                        <div class="two">
+                            <div class="two_left">
+                                <h3>이름</h3>
+                                <p>
+                                    
+                                    <label for="username"></label>
+                                    <input
+                                        type="text"
+                                        id="username"
+                                        title="이름을 입력해주세요"
+                                        class="w450"
+                                        placeholder="이름을 입력해주세요"
+                                        required
+                                    />
+                                </p>
+                                <h3>생년월일</h3>
+                                <p>
+                                    
+                                    <label for="userbirth"></label>
+                                    <input
+                                        type="text"
+                                        id="userbirth"
+                                        title="생년월일을 입력해주세요"
+                                        class="w450"
+                                        placeholder="생년월일을 입력해주세요"
+                                        required
+                                    />
+                                </p>
+                            </div>
+                            <div class="two_right">
+                                <h3>이름 영문</h3>
+                                <p>     
+                                    <label for="username_E"></label>
+                                    <input
+                                        type="text"
+                                        id="username_E"
+                                        title="영문이름을 입력해주세요"
+                                        class="w450"
+                                        placeholder="영문이름을 입력해주세요"
+                                        required
+                                    />
+                                </p>
+                                <h3>연락처</h3>
+                                <p>     
+                                    <label for="usertel"></label>
+                                    <input
+                                        type="text"
+                                        id="usertel"
+                                        title="연락처를 입력해주세요"
+                                        class="w450"
+                                        placeholder="연락처를 입력해주세요"
+                                        required
+                                    />
+                                </p>
+                            </div>
+                        </div>
+                        <!--two-->
+                        <div class="bottom1">
+                            <h3>이력서 업로드</h3>
+                            <p>
+                                <!-- CSS 안먹음-->
+                                <label for="file">파일첨부</label>
+                                <input type="file" id="file">
+                            </p>
+                        </div>
+                        <div class="bottom2">
+                            <h3>접속 기기 관리</h3>
+                            <a href="#">전체로그아웃</a>
+                            <p class="txt">로그인 된 모든 기기에서 로그아웃 됩니다.</p>
+                        </div>
+                        <div class="bottom3">
+                            <p class="txt">더이상 이용을 원하지 않으신가요?</p>
+                            <a href="#">회원탈퇴</a>
+                        </div>
+                        <div class="btn">
+                            <p class="save">저장</p>
+                            <p class="cancel">취소</p>
+                        </div>
+                    </div>
+                    <!-- all -->
+                </div>
+            </main>
+            <!-- //main -->
+
+            <footer id="footer">
+                <!-- footer 추가 -->
+            </footer>
+        </div>
+        <script src="js/common.js"></script>
+        <script type="module" src="js/sub.js"></script>
+        <fieldset>
+    </body>
+</html>

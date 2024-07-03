@@ -1,0 +1,423 @@
+/* text. password */
+input[type='text'],
+input[type='password'] {
+    box-sizing: border-box;
+    height: 30px;
+    background: none;
+    border: none;
+}
+
+::placeholder {
+    color: #8c8c8c;
+    font-size: 16px;
+}
+
+.w225 {
+    width: 200px;
+}
+.w300 {
+    width: 300px;
+    margin-left: 10px;
+}
+
+.topMenu {
+    background-image: url(../images/topMenu/loginBG.png);
+    background-position: 0 0;
+    background-size: cover;
+    width: 100%;
+    padding: 200px 0 170px 0;
+}
+
+.topMenu .login {
+    margin: 33px 0 25px 0;
+    padding-top: 33px;
+    box-sizing: border-box;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    margin: auto;
+}
+
+.topMenu h2 {
+    color: #0d0d0d;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 33px;
+}
+.topMenu .login .top {
+    margin-top: 44px;
+    padding: 0 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topMenu .login .top p {
+    border-bottom: 1px solid #8c8c8c;
+    margin-bottom: 22px;
+    display: flex;
+}
+.topMenu .login .top p img {
+    padding-right: 15px;
+}
+.topMenu .login .top a {
+    border-bottom: 1px solid #8c8c8c;
+    padding: 0 5px;
+    margin: 23px 0;
+    font-size: 12px;
+}
+.topMenu .login .loginbtn {
+    text-align: center;
+    line-height: 30px;
+    width: 98px;
+    height: 30px;
+    background: #2953a7;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.topMenu .login .bottom {
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #8c8c8c;
+
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+/* ---------------------------------------------------------//login */
+
+.topMenu .join {
+    margin: 33px 0 25px 0;
+    box-sizing: border-box;
+    width: 800px;
+    height: 530px;
+    background: rgba(255, 255, 255, 0.9);
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.topMenu .join .left {
+    padding: 30px 5px 0 0;
+    width: 390px;
+    height: 400px;
+}
+.topMenu .join .left h2 {
+    font-weight: 700;
+    font-size: 25px;
+}
+.topMenu .join .left p {
+    border-bottom: 1px solid #8c8c8c;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 29px;
+}
+.topMenu .join .left .imp {
+    font-size: 14px;
+    border: none;
+    margin-top: 0;
+    color: #8c8c8c;
+    padding-left: 20px;
+    line-height: 110%;
+}
+
+.topMenu .join .right {
+    padding: 30px 0 0 10px;
+    width: 390px;
+    height: 400px;
+}
+.topMenu .join .right div {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 350px;
+    height: 112px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 22px;
+    background-color: #fff;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.topMenu .join .bottom {
+    height: 90px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.topMenu .join .bottom a {
+    text-align: center;
+    line-height: 40px;
+    width: 130px;
+    height: 40px;
+    background: #2953a7;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    margin: 25px;
+}
+.topMenu .join .bottom .w2 {
+    width: 130px;
+    height: 40px;
+    background: #fff;
+    color: #2953a7;
+    border: 1px solid #2953a7;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 25px;
+}
+.topMenu .join .bottom .w1 {
+    width: 85px;
+    height: 30px;
+    background: #fff;
+    color: #2953a7;
+    border: 1px solid #2953a7;
+    font-size: 14px;
+    font-weight: 200;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 280px;
+    top: 120px;
+    text-align: center;
+    line-height: 30px;
+}
+/* ---------------------------------------------------------//join */
+
+.topMenu .myPage {
+    width: 1060px;
+    margin: auto;
+}
+.topMenu .myPage .all {
+    background: rgba(255, 255, 255, 0.9);
+    width: 1060px;
+    height: 945px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.topMenu .myPage .all h2 {
+    font-size: 25px;
+    color: #0d0d0d;
+    padding: 45px 0 70px 0;
+}
+
+.topMenu .myPage .all .one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topMenu .myPage .all h3 {
+    font-size: 20px;
+    color: #0d0d0d;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.topMenu .myPage .all .one .one_left .one_1 #sel {
+    width: 820px;
+    height: 30px;
+    color: #8c8c8c;
+    margin-bottom: 15px;
+}
+.topMenu .myPage .all .one .one_left .one_2 {
+    display: flex;
+}
+.topMenu .myPage .all .one .one_left .one_2 h3 {
+    margin-right: 120px;
+}
+.topMenu .myPage .all .one .one_left .one_2 span {
+    font-weight: 700;
+    margin-right: 19px;
+}
+.topMenu .myPage .all .one .one_left .one_2 p {
+    margin-left: 34px;
+    font-size: 14px;
+}
+
+.topMenu .myPage .all .one .one_left .toggle {
+    border: 1px solid #000;
+    position: relative;
+    display: block;
+    width: 37px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.topMenu .myPage .all .one .one_left .toggle .indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to bottom, #2953a7, #2953a7);
+    border-radius: 50%;
+    transform: scale(0.9);
+}
+
+.topMenu .myPage .all .one .one_left .toggle.active .indicator {
+    left: 37px;
+}
+
+.topMenu .myPage .all .one .one_left .one_2 .toggle span {
+    margin-left: 120px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.topMenu .myPage .all .one .one_left .one_3 {
+    display: flex;
+}
+.topMenu .myPage .all .one .one_left .one_3 h3 {
+    margin-right: 130px;
+}
+
+.topMenu .myPage .all .one .one_left .one_3 span {
+    margin: 0 65px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.topMenu .myPage .all .one .one_ringt .img {
+    width: 100px;
+    height: 130px;
+    background: #8c8c8c;
+    margin-bottom: 10px;
+}
+.topMenu .myPage .all .one .one_ringt .img i {
+    font-size: 60px;
+    color: #fff;
+    line-height: 130px;
+    padding: 0 20px;
+}
+.topMenu .myPage .all .one .one_ringt .img + p {
+    width: 97px;
+    height: 30px;
+    border-radius: 25px;
+    background: #fff;
+    border: 1px solid #2953a6;
+    color: #2953a6;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.topMenu .myPage .all .two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topMenu .myPage .all .two p {
+    border-bottom: rgb(0, 0, 0) 1px solid;
+}
+.topMenu .myPage .all .two h3 {
+    margin-top: 30px;
+}
+.topMenu .myPage .all .two .two_left input {
+    width: 450px;
+}
+.topMenu .myPage .all .two .two_right input {
+    width: 450px;
+}
+
+.topMenu .myPage .all .bottom1 {
+    margin-top: 45px;
+    display: flex;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #000;
+}
+.topMenu .myPage .all .bottom1 h3 {
+    margin-right: 20px;
+}
+
+.topMenu .myPage .all .bottom1 label {
+    margin-right: 10px;
+}
+.topMenu .myPage .all .bottom2 {
+    position: relative;
+    margin: 45px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    height: 100px;
+}
+.topMenu .myPage .all .bottom2 h3 {
+    margin-right: 20px;
+}
+.topMenu .myPage .all .bottom2 a {
+    height: 22px;
+    margin-right: 20px;
+    font-weight: 700;
+    color: #8c8c8c;
+    border-bottom: #8c8c8c 1px solid;
+}
+.topMenu .myPage .all .bottom2 .txt {
+    position: absolute;
+    bottom: 40px;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+.topMenu .myPage .all .bottom3 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8c8c8c;
+    display: flex;
+}
+.topMenu .myPage .all .bottom3 a {
+    height: 18px;
+    margin-left: 10px;
+    color: #8c8c8c;
+    border-bottom: #8c8c8c 1px solid;
+}
+
+.topMenu .myPage .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 45px 0;
+}
+
+.topMenu .myPage .btn .save {
+    background: #2953a7;
+    color: #fff;
+    display: flex;
+    width: 130px;
+    height: 20px;
+    padding: 9.517px 0px 9.483px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+.topMenu .myPage .btn .cancel {
+    background: #fff;
+    color: #2953a7;
+    display: flex;
+    width: 130px;
+    height: 20px;
+    padding: 9.517px 0px 9.483px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid #2953a7;
+    margin: 0 10px;
+}
