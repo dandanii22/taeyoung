@@ -54,12 +54,18 @@
               />
             </p>
 
-            <a href="index.html" class="loginbtn">로그인</a>
+            <button
+              class="loginbtn"
+              onclick="location.href='index.html'"
+              disabled
+            >
+              로그인
+            </button>
             <a href="#">비밀번호 재설정</a>
           </div>
           <div class="bottom">
             <p>회원이 아니라면 가입하세요.</p>
-            <a href="join.html" class="loginbtn">회원가입 하기</a>
+            <a href="join.html" class="joinbtn">회원가입 하기</a>
           </div>
         </div>
       </main>
@@ -69,6 +75,7 @@
         <!-- footer 추가 -->
       </footer>
     </div>
+
     <script src="js/subcommon.js"></script>
     <script type="module" src="js/sub.js"></script>
   </body>
